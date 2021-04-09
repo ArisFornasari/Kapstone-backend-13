@@ -17,6 +17,7 @@ const UserSchema = new mongoose.Schema({
   avatar: {
     type: String,
   },
+  likesList: [],
   date: {
     type: Date,
     default: Date.now,

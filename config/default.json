@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://aris:Misfits1@kapstonebackend.myiuu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://aris:Misfits1@kapstonebackend.myiuu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
