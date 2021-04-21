@@ -22,6 +22,10 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  watchList: [],
 });
-
+//when movie is clicked, querry database
+//Get id of movie,add id to watch list array
+//
+//in the post
 module.exports = User = mongoose.model("user", UserSchema);
